@@ -113,3 +113,25 @@ If the p-value is less than the significance level (e.g., 0.05), we reject the n
 
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Part Resistance by Process Parameters
+
+The boxplots visualize the distribution of `PartResistance` for `Machine == 1` across different levels of `Pressure` and `Temperature`. This helps in understanding the spread and central tendency of resistance values for each parameter setting.
+
+From these plots, it is visually apparent how different levels of pressure and temperature affect the part resistance, which aligns with the ANOVA results showing their significant individual effects.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src="media/plots/resistance_boxplots.html"
+  width="100%"
+  height="500px"
+  style="border:none;"
+  scrolling="no">
+</iframe>
+:::
+::::
